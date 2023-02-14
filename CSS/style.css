@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    
+    height: 100vw;
+    width: 100vw;
+
+}
+
+.nav-bar-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    height: 72px;
+    padding: 0 20px;
+}
+
+    
+
+.nav-link-text {
+    font-family: 'Inter', sans-serif;
+    color: #18191F;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    
+
+}
