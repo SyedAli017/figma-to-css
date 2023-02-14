@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
 }
 
 .app {
     
     height: 100vw;
-    width: 100vw;
 
 }
 
@@ -29,7 +30,6 @@
     
 
 .nav-link-text {
-    font-family: 'Inter', sans-serif;
     color: #18191F;
     font-weight: 500;
     font-size: 14px;
