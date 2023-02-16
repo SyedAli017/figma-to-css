@@ -7,15 +7,19 @@
 }
 
 .app {
-    
-    height: 100vw;
+    background-image: url(../Images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -100px;
 
 }
 
 .nav-bar-list {
     display: flex;
+    align-items: center;
     gap: 32px;
     list-style: none;
+
     
 }
 
@@ -25,6 +29,8 @@
     max-width: 1440px;
     height: 72px;
     padding: 0 20px;
+    justify-content: space-between;
+    margin: auto;
 }
 
     
@@ -35,6 +41,76 @@
     font-size: 14px;
     line-height: 20px;
     text-decoration: none;
-    
 
 }
+.nav-bar-badge {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 96px auto auto;
+    max-width: 1440px;
+    min-height: 100vh;
+    gap: 45px; 
+    
+
+}    
+    
+.hero-title {
+    color: #18191F;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    margin-top: 72px;
+    gap: 45px;
+
+
+}    
+
+.hero-content {
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;    
+}
+
+.hero-button {
+    color: #FFFFFF;
+    width: 154px;
+    height: 48px;
+    background: #8C30F5;
+    border-radius: 6px;
+    border: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.company-logos {
+   height: 110px;
+   display: flex;
+   align-items: center;
+   margin: auto; 
+   gap: 64px;
+}
+.hero-content-wrapper {
+    display: flex;
+    justify-content: space-between ;
+}
+
+.hero-company-logos {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    height: 110px;
+    gap: 64px;
+
+}
+
