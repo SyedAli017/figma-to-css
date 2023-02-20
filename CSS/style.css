@@ -193,3 +193,164 @@
 
 }
 
+
+.third-section {
+    min-width: 1440px;
+    height: 896px;
+    background-color: #D5FAFC;
+    position: relative;
+
+
+
+}
+
+.quotations-large {
+    position: absolute;
+    width: 142px;
+    height: 120px;
+    top: 64px;
+    left: 165px;  
+
+}
+
+.third-section-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 445px;
+    height: 168px;
+    position: absolute;
+    left: 260px;
+    top: 120px;
+
+
+
+}
+
+.third-section-title { 
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    color: #18191F;
+
+
+}
+
+.third-section-description {
+    font-size: 18px;
+    line-height: 32px;
+
+
+}
+
+.testimonial-logos {
+    margin: 32px auto auto 32px;
+
+}
+
+.testimonial1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 350px;
+    height: 468px;
+    position: absolute;
+    top: 312px;
+    left: 355px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+    
+
+
+}
+
+
+.testimonial1-description {
+    font-size: 18px;
+    line-height: 32px;
+    width: 254px;
+    height: 256px;
+    margin: 32px 32px auto 64px;
+    
+}
+
+.testimonial2 {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: flex-start;
+    position: absolute;
+    width: 445px;
+    height: 340px;
+    top: 168px;
+    left: 735px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+}
+ 
+
+
+ 
+ .testimonial2-description {
+    font-size: 18px;
+    line-height: 32px;
+    width: 349px;
+    height: 128px;
+    margin: 32px 32px auto 64px;
+}
+
+.testimonial3 {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: flex-start;
+    width: 350px;
+    height: 276px;
+    position: absolute;
+    top: 540px;
+    left: 735px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+
+}
+
+.testimonial3-description {
+    font-size: 18px;
+    line-height: 32px;
+    width: 254px;
+    height: 64px;
+    margin: 32px 32px auto 64px;
+}
+
+.testimonial-person-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 24px auto auto 64px;
+}
+
+.testimonial-person-position {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    height: 24px;
+    color: #969BAB;
+    margin: auto auto 32px 64px;
+}
+
+.quotations-small {
+    position: absolute;
+    top: 104px;
+    left: 32px;
+
+
+}
+
+
+
+
+
+
