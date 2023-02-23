@@ -181,14 +181,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-
 
 .third-section-heading::before {
   content: "";
   position: absolute;
-  background-image: url("/Images/Third-Section/quotations-large.png") ;
+  background-image: url("/Images/Third-Section/quotations-large.png");
   background-size: contain;
   background-repeat: no-repeat;
   opacity: 0.5;
@@ -213,7 +211,6 @@
   font-size: 48px;
   line-height: 64px;
   color: #18191f;
-  
 }
 
 .third-section-description {
@@ -296,7 +293,7 @@
 }
 
 @media screen and (max-width: 900px) {
-  .third-section{
+  .third-section {
     flex-direction: column;
     padding: 100px 20px;
   }
@@ -315,28 +312,25 @@
   .testimonial3 {
     width: 100%;
     height: auto;
-    background-color: #ffffff;
     margin: 30px auto auto auto;
   }
-  .third-section-heading{
-    width: auto;
+  .third-section-heading {
+    width: 100%;
     height: auto;
     text-align: center;
   }
-
+  
   .third-section-heading::before {
     left: 0;
   }
 
-  .testimonial1-content,
+  .testtimonial1-content,
   .testimonial2-content,
-  .testimonial3-content{
+  .testimonial3-content {
     padding: 5px;
   }
-
   .testimonial-first-column,
-  .testimonial-second-column
-  {
+  .testimonial-second-column {
     width: 100%;
   }
 }
