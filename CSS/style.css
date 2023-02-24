@@ -411,6 +411,7 @@
   align-items: center;
   padding: 64px 165px;
   gap: 30px;
+  justify-content: center;
 }
 .fifth-section-content {
   display: flex;
@@ -450,4 +451,11 @@
   color: #8c30f5;
   font-family: 500;
   font-size: 16px;
+}
+
+@media screen and (max-width: 900px) {
+  .fifth-section {
+    flex-direction: column;
+  }
+  
 }
