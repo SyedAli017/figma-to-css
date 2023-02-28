@@ -342,6 +342,7 @@
   padding: 80px 165px;
   gap: 30px;
   justify-content: center;
+  margin: auto;
 }
 .fourth-section-heading {
   gap: 8px;
@@ -412,6 +413,7 @@
   padding: 64px 165px;
   gap: 30px;
   justify-content: center;
+  margin: auto;
 }
 .fifth-section-content {
   display: flex;
@@ -430,7 +432,7 @@
   font-size: 40px;
   line-height: 54px;
 }
-
++
 .fifth-section-description {
   width: 444px;
   height: 160px;
