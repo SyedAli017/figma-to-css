@@ -396,9 +396,18 @@
   .fourth-section-heading {
     text-align: center;
     margin: auto;
+
+    
+  
   }
   .fourth-section {
     flex-direction: column;
+  
+  }
+
+  .fourth-section-title {
+    margin: auto;
+
   }
   .counts {
     align-items: center;
@@ -511,5 +520,95 @@
     width: 100%;
     min-width: 540px;
   }
+  
+}
+
+.cta-section-container {
+  background-color: #2EC5CE;
+}
+
+.cta-section {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  
+}
+
+.cta-section-content {
+  width: 540px;
+  margin: 68px auto 67px 165px;
+  
+}
+.cta-message {
+  width: 540px;
+  height: 232px;
+}
+
+.message-heading {
+  width: 540px;
+  height: 128px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.message-description {
+  width: 540px;
+  height: 96px;
+  font-size: 18px;
+  line-height: 32px;
+  margin: 8px auto auto;
+}
+
+.get-the-app {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 48px auto 8px auto;
+
+}
+
+.cta-badges {
+  display: flex;
+  gap: 12px;
+}
+
+.cta-section-phone-mockups{
+  position: relative;
+  display: flex;
+  margin-right: 125px;
+  width: 550px;
+  
+  
+}
+
+
+.mockup2 {
+  margin: 88px auto auto -25px;
+  
+  
+}
+
+
+@media screen and (max-width: 900px) {
+  .cta-section {
+    flex-direction: column;
+   
+    
+  }
+
+  .cta-section-content {
+    margin: auto;
+    justify-content: center;
+  }
+
+  .cta-section-phone-mockups {
+    margin: auto;
+    justify-content: center;
+  }
+
+
   
 }
